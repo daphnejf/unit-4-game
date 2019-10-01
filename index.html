@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystals Collector</title>
+    <link rel = "stylesheet" type = "text/css" href = "assets/css/style.css">
+    <link rel = "stylesheet" type = "text/css" href = "assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid" id="mainBox">
+		<div class="jumbotron jumbotron-fluid">
+			<div class="container">
+			  <h1 class="display-4">Crystals Collector</h1>
+			  <p class="lead">You will be given a random number at the start of the game.</p>
+			  <p class="lead">There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+			  <p class="lead">You win the game by matching your total score to a random number. You lose if your total score goes above the random number.</p>
+			  <p class="lead">The value of each crystal is hidden from you until you click on it.</p>
+			  <p class="lead">Each time the game starts, the values of each crystal will be changed.</p>
+			</div>
+		</div>
+	</div>
+
+		<div class="row" id="gameSec">
+
+			<div class="col-md-3" id="numberSec">
+				<h3 class="matchNumber" id="random">Match Number:</h3>
+				<h1 class="matchNumber" id="randomNumber">120</h1>
+			</div>
+
+			<div class="col-md-6 text-center" id="buttonSection">
+
+				<button id="crystal1" value="0"><img src="assets/images/crystal1.jpg" class="icons" id="icon1"></button>
+
+				<button id="crystal2" value="0"><img src="assets/images/crystal2.jpg" class="icons" id="icon2"></button>
+
+				<button id="crystal3" value="0"><img src="assets/images/crystal3.jpg" class="icons" id="icon3"></button>
+
+				<button id="crystal4" value="0"><img src="assets/images/crystal4.jpg" class="icons" id="icon4"></button>
+
+			</div>
+
+			<div class="col-md-3" id="number">
+				<h3 class="totScore" id="score">Your Total Score:</h3>
+				<h1 class="totScore" id="totalScore">0</h1>
+			</div>
+
+		</div>
+
+		<div class="row" id="scoreSec">
+
+			<div class="col-md-4"></div>
+
+			<div class="col-md-2" id="winSection">
+				<h3 class="winsandlosses" id="wins">Wins:	0</h3>
+			</div>
+
+			<div class="col-md-2" id="lossSection">
+				<h3 class="winsandlosses" id="losses">Losses: 0</h3>
+			</div>
+
+			<div class="col-md-4"></div>
+
+		</div>
+
+	</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>

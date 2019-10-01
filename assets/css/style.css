@@ -1,0 +1,38 @@
+.icons {
+    display: inline-block;
+    max-width: 100px;
+    max-height: 100px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.display-4 {
+    text-align: center;
+    margin: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.lead {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.matchNumber {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.totScore {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.winsandlosses {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+#numberSec, #scoreSec {
+    background-color: black;
+    color: white;
+}
